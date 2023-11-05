@@ -1,12 +1,19 @@
-# dan-griffin-ct.github.io
+
 # Dan Griffin
-### _Fullstack Engineer_
+### _Fullstack Engineer_ 💻
+
+
+---
+Over 9 years of software engineering experience spanning everything from Django, Rails, and Flask to Vue.js, React, and AWS.
+
+*projects*\
+[pyparse](https://github.com/dan-griffin-ct/pyparse)
+
+*social*\
+[LinkedIn](http://www.linkedin.com/in/danielggriffin)
 
 
 
-Over 9 years of software engineering experience spanning everything from Django and Rails to Vue.js and AWS.
-
-- I live in CT
-- I watch a lot of VHS
-- I like spicy food
-
+- I live in CT 🦞
+- I watch a lot of VHS 📼
+- I like spicy food 🌶️
