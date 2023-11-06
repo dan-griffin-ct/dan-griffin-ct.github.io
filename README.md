@@ -5,7 +5,9 @@
 
 ### _Fullstack Engineer_ 💻
 
-Over 9 years of software engineering experience spanning Django, Rails, and Flask to Vue.js, React, and AWS.
+Over 9 years of software engineering experience spanning Django, Rails, and Flask to Vue.js, React, and AWS.\
+
+**Projects**
 
 
 [pyparse](https://github.com/dan-griffin-ct/pyparse) - *a text parsing script that returns letter tallies with a special character toggle*
