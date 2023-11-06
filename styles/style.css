@@ -1,26 +1,107 @@
+/* body */
+
 body {
   font-family: sans-serif;
-  margin: 3rem;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(
+    to bottom, 
+    #dae7d4 0%, 
+    #dae7d4 10%,
+    #373936 10%,
+    #373936 100%
+  )
+}
+
+/* end body */
+
+
+/* text styling */
+
+.text-white {
+  color: #fff;
+}
+
+.text-small {
+  font-size: 14px;
+}
+
+.link-styling-white {
+  color: #fff;
+}
+
+/* end text styling */
+
+
+/* top third */
+
+.top-third {
+  width:100%;
   background-color: #dae7d4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.header-style {
-  margin-top: rem;
+
+.title-text {
+  margin-top: .5rem;
 }
 
-.job-title-color {
+.name-text {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.job-title {
+  font-size: 28px;
   color: #ff581a;
+  animation: color-change 6s infinite;
 }
 
-/* sociak links */
+/* end top third */
+
+
+.bottom-two-thirds {
+  margin: 2rem;
+}
+
+
+@keyframes color-change {
+  0% { color: #ff581a; }
+  30% { color: #ff7947; }
+  60% { color: #ff9a75; }
+  90% { color: #ff7947; }
+  100% { color: #ff581a;}
+}
+
+
+.main-text-info {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+
+/* social links */
+
+#social-links-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .social-link {
+  font-size: 12px;
   border: 1px solid black;
   border-radius: 3px;
   color: #ff581a;
-  opacity: 70%;
+  opacity: 90%;
   padding: .5rem;
   text-decoration: none;
+  margin-right: .25rem;
 }
 
 .social-link:hover {
@@ -28,42 +109,43 @@ body {
 }
 
 /* end social links */
+
+/* project links */
+
+#projects {
+  margin-top: 4rem;
+}
+
+
 .project-link {
   color: #ff581a;
   opacity: 70%;
   padding: .5rem;
   text-decoration: none;
 }
-/* project links */
 
+.project-description {
+  margin-left: .5rem;
+}
+
+.project-item {
+  margin-bottom: 5%;
+}
 /* end project links */
-/* body */
 
-.main-text-info {
-  margin-top: 3rem;
-  animation: color-change 5s infinite;
-}
 
-@keyframes color-change {
-  0% { color: black; }
-  25% { color: #7f2c0d; }
-  50% { color: #ff581a; }
-  75% { color: #ff7947; }
-  100% { color: black;}
-}
-
-/* end body */
 
 /* footer */
 
 .footer-text {
   color: #ff581a;
   font-size: 10px;
-  position:fixed;
+  position: absolute;
   margin: 3rem;
-  left:0px;
-  bottom:0px;
-  height:30px;
+  left: 0px;
+  bottom: 0px;
+  height: 20px;
 }
 
 /* end footer */
+
