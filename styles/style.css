@@ -1,0 +1,69 @@
+body {
+  font-family: sans-serif;
+  margin: 3rem;
+  background-color: #dae7d4;
+}
+
+.header-style {
+  margin-top: rem;
+}
+
+.job-title-color {
+  color: #ff581a;
+}
+
+/* sociak links */
+
+.social-link {
+  border: 1px solid black;
+  border-radius: 3px;
+  color: #ff581a;
+  opacity: 70%;
+  padding: .5rem;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  background-color: black;
+}
+
+/* end social links */
+.project-link {
+  color: #ff581a;
+  opacity: 70%;
+  padding: .5rem;
+  text-decoration: none;
+}
+/* project links */
+
+/* end project links */
+/* body */
+
+.main-text-info {
+  margin-top: 3rem;
+  animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+  0% { color: black; }
+  25% { color: #7f2c0d; }
+  50% { color: #ff581a; }
+  75% { color: #ff7947; }
+  100% { color: black;}
+}
+
+/* end body */
+
+/* footer */
+
+.footer-text {
+  color: #ff581a;
+  font-size: 10px;
+  position:fixed;
+  margin: 3rem;
+  left:0px;
+  bottom:0px;
+  height:30px;
+}
+
+/* end footer */
