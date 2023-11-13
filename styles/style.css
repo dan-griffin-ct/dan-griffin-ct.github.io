@@ -144,6 +144,7 @@ body {
 
 .footer {
   margin-top: 2rem;
+  float: right;
 }
 
 .footer-text {
@@ -151,8 +152,7 @@ body {
   font-size: 12px;
   font-family:'Courier New', Courier, monospace;
   position: relative;
-  margin: 3rem;
-
+  margin: 1rem;
 }
 
 /* end footer */
