@@ -54,7 +54,7 @@ body {
   margin-bottom: 0;
 }
 
-.job-title {
+.title {
   font-family: fantasy;
   font-size: 28px;
   color: #FF7518;
@@ -81,7 +81,7 @@ body {
 
 
 .main-text-info {
-  font-size: 14px;
+  font-size: 1rem;
   display: flex;
   justify-content: center;
   align-items: center
@@ -97,14 +97,14 @@ body {
 }
 
 .social-link {
-  font-size: 12px;
+  font-size: 14px;
   border: 1px solid black;
   border-radius: 3px;
   color: #FF7518;
   opacity: 90%;
   padding: .5rem;
   text-decoration: none;
-  margin-right: .25rem;
+  margin-right: .5rem;
 }
 
 .social-link:hover {
@@ -163,11 +163,11 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .grid-item {
-  width: 50%;
+  width: 70%;
 
 }
 .card {
