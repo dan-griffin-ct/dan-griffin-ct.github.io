@@ -57,7 +57,7 @@ body {
 .job-title {
   font-family: fantasy;
   font-size: 28px;
-  color: #ee4204;
+  color: #FF7518;
   animation: color-change 2s infinite;
 }
 
@@ -70,13 +70,13 @@ body {
 
 
 @keyframes color-change {
-  0% { color: #ee4204; }
+  0% { color: #FF7518; }
   20% { color: #be3403; }
   40% { color: #8e2702; }
   60% { color: #5f1a01; }
   70% { color: #8e2702; }
   80% { color: #be3403; }
-  100% { color: #ee4204;}
+  100% { color: #FF7518;}
 }
 
 
@@ -100,7 +100,7 @@ body {
   font-size: 12px;
   border: 1px solid black;
   border-radius: 3px;
-  color: #ee4204;
+  color: #FF7518;
   opacity: 90%;
   padding: .5rem;
   text-decoration: none;
@@ -121,7 +121,7 @@ body {
 
 
 .project-link {
-  color: #ee4204;
+  color: #FF7518;
   padding: .5rem;
   text-decoration: none;
 }
@@ -140,8 +140,8 @@ body {
 /* footer */
 
 .footer-text {
-  color: #ee4204;
-  font-size: 10px;
+  color: #FF7518;
+  font-size: 12px;
   font-family:'Courier New', Courier, monospace;
   position: absolute;
   margin: 3rem;
