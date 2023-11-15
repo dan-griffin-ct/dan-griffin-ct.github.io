@@ -8,9 +8,10 @@ body {
   min-height: 100vh;
   background: linear-gradient(
     to bottom, 
-    #dae7d4 0%, 
-    #dae7d4 5%,
-    #614051 5%,
+    #333 0%,
+    #dae7d4 5%, 
+    #dae7d4 26%,
+    #614051 26%,
     #373936 90%,
     #373936 100%
   )
@@ -41,7 +42,7 @@ body {
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #dae7d4;
-  opacity: 95%;
+  /* opacity: 95%; */
   color: black;
 }
 
@@ -59,15 +60,9 @@ body {
 .top-third {
   width:100%;
   background-color: #dae7d4;
-  opacity: 95%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-
-.title-text {
-  margin-top: .5rem;
 }
 
 .name-text {
@@ -84,6 +79,13 @@ body {
 
 /* end top third */
 
+.highlight-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+  margin-top: .5rem;
+}
 
 .bottom-two-thirds {
   margin: 2rem;
