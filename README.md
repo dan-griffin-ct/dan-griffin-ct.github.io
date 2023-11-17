@@ -5,7 +5,7 @@
 
 ### _Fullstack Engineer_ 💻
 
-Over 9 years of software engineering experience spanning Django, Rails, and Flask to Vue.js, React, and AWS.\
+10 years of software engineering experience spanning Django, Rails, React, Vue, AWS and a whole lot more.
 
 **Projects**
 
