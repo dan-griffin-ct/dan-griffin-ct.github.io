@@ -12,6 +12,15 @@ body {
 
 /* end body */
 
+/* page */
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* end page */
+
 /* title text animation */
 
 .title-text {
@@ -234,10 +243,10 @@ body {
 /* footer */
 
 .footer {
-  bottom: 0px;
-  float: right;
-  width: 100%;
   position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;   
 }
 
 .footer-text {
