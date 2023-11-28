@@ -29,6 +29,7 @@ export default function AboutMe() {
           >
             <p class="text-white text-small project-description">&#129438; I moved to Connecticut with my wife, daughter, and cat in 2018</p>
             <p class="text-white text-small project-description">&#128252; I'm a huge fan of collecting VHS (especially horror and sci-fi)</p>
+            <p class="text-white text-small project-description">&#127929; I like making electronic music</p>
             <p class="text-white text-small project-description">&#128761; I've been skateboarding for a couple decades</p>
             <p class="text-white text-small project-description">&#127798; I really like spicy food</p>
             <p class="text-white text-small project-description">&#127911; I co-run an <a target="_blank" href="https://www.lautenradio.com">online radio station</a> with my wife</p>

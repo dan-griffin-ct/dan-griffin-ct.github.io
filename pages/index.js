@@ -30,7 +30,6 @@ export default function Home() {
           <div className={styles.logoDiv}>
             <a target="_blank" href="https://github.com/dan-griffin-ct"><img src="/github.svg" alt="GitHub" className={styles.logo} /></a>
             <a target="_blank" href="https://linkedin.com/in/danielggriffin"><img src="/linkedin-in.svg" alt="LinkedIn" className={styles.logo} /></a>
-            <a href="/DGResume.pdf" download><img src="/file-solid.svg" alt="Resume" className={styles.logo} /></a>
             <a target="_blank" href="mailto:dangoldgriff@gmail.com"><img src="/envelope-solid.svg" alt="Email" className={styles.logo} /></a>
           </div>
         </div>
