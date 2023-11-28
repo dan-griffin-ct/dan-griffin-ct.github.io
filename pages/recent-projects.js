@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Home.module.scss';
 
 export default function RecentProjects() {
 return (
@@ -48,7 +48,7 @@ return (
           >
             <h5>This site!</h5>
             <p>
-              This site was created utilizing Node20, React.js, and Next.js
+              This site was created utilizing Node20, React.js, Next.js, Sass, CSS animations, VS Code, GitHub, and Netlify 
             </p>
           </a>
         </div>

@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Home.module.scss';
 import Link from 'next/link';
 
 
@@ -28,10 +28,10 @@ export default function Home() {
             <code>Full Stack Engineer</code>
           </p>
           <div className={styles.logoDiv}>
-            <a target="_blank" href="https://github.com/dan-griffin-ct"><img src="/github.png" alt="GitHub" className={styles.logo} /></a>
-            <a target="_blank" href="https://linkedin.com/in/danielggriffin"><img src="/linkedin.png" alt="LinkedIn" className={styles.logo} /></a>
-            <a href="./DGResume.pdf" download><img src="/resume.png" alt="Resume" className={styles.logo} /></a>
-            <a target="_blank" href="mailto:dangoldgriff@gmail.com"><img src="/email.png" alt="Email" className={styles.logo} /></a>
+            <a target="_blank" href="https://github.com/dan-griffin-ct"><img src="/github.svg" alt="GitHub" className={styles.logo} /></a>
+            <a target="_blank" href="https://linkedin.com/in/danielggriffin"><img src="/linkedin-in.svg" alt="LinkedIn" className={styles.logo} /></a>
+            <a href="./DGResume.pdf" download><img src="/file-solid.svg" alt="Resume" className={styles.logo} /></a>
+            <a target="_blank" href="mailto:dangoldgriff@gmail.com"><img src="/envelope-solid.svg" alt="Email" className={styles.logo} /></a>
           </div>
         </div>
 
