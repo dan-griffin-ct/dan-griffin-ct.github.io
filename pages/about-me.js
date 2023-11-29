@@ -8,7 +8,6 @@ export default function AboutMe() {
     <div className={styles.container}>
       <Head>
         <title>&#127875; Dan Griffin</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
   
       <main>

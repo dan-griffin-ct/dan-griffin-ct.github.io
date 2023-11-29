@@ -7,7 +7,6 @@ return (
     <div className={styles.container}>
       <Head>
         <title>&#127875; Dan Griffin</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
   
       <main>
@@ -42,7 +41,7 @@ return (
             <p>A Lord of the Rings (LOTR) themed blog written with Rails 7, complete with full CRUD actions, user authentication via Devise, and custom styling</p>
           </a>
 
-          <a
+          <Link
             href="/"
             className={styles.cardProject}
           >
@@ -50,11 +49,11 @@ return (
             <p>
               This site was created utilizing Node20, React.js, Next.js, Sass, CSS animations, VS Code, GitHub, and Netlify 
             </p>
-          </a>
+          </Link>
         </div>
-        <a href="/" className={styles.backLink}>
+        <Link href="/" className={styles.backLink}>
           <p>&larr;</p>
-        </a>
+        </Link>
       </main>
 
       <style jsx>{`

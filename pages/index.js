@@ -4,11 +4,20 @@ import Link from 'next/link';
 
 
 export default function Home() {
+  const downloadResume = () => {
+    const pdfUrl = "DGResume.pdf";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "DanGriffinResume.pdf"; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className={styles.container}>
       <Head>
         <title>&#127875; Dan Griffin</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
   
       <main>
@@ -21,7 +30,7 @@ export default function Home() {
         </div>
         <div>
           <h1 className={styles.title}>
-            <a target="_blank" href="https://github.com/dan-griffin-ct">Dan Griffin</a>
+            <Link target="_blank" href="https://github.com/dan-griffin-ct">Dan Griffin</Link>
           </h1>
  
           <p className={styles.description}>
@@ -30,33 +39,34 @@ export default function Home() {
           <div className={styles.logoDiv}>
             <a target="_blank" href="https://github.com/dan-griffin-ct"><img src="/github.svg" alt="GitHub" className={styles.logo} /></a>
             <a target="_blank" href="https://linkedin.com/in/danielggriffin"><img src="/linkedin-in.svg" alt="LinkedIn" className={styles.logo} /></a>
+            <a target="_blank" onClick={downloadResume}><img src="/file-solid.svg" alt="Resume" className={styles.logo} /></a>
             <a target="_blank" href="mailto:dangoldgriff@gmail.com"><img src="/envelope-solid.svg" alt="Email" className={styles.logo} /></a>
           </div>
         </div>
 
         <div className={styles.grid}>
-          <a className={styles.cardIntro}>
+          <Link href="#" className={styles.cardIntro}>
             <h5>10 years of experience</h5>
-            <p>backend, frontend, devops, project coordination &amp; mentorship </p>
-          </a>
+            <p>backend, frontend, devops, project coordination and mentorship</p>
+          </Link>
 
-          <a 
+          <Link 
             href="/tools-skills"
             className={styles.card}
           >
             <h5>Tools / Skills / Clients</h5>
-            <p>technologies, stacks, and clients I've worked with along the way</p>
-          </a>
+            <p>technologies and clients I have worked with along the way</p>
+          </Link>
 
-          <a
+          <Link
             href="/recent-projects"
             className={styles.card}
           >
             <h5>Recent Projects</h5>
-            <p>recreational projects to explore new concepts</p>
-          </a>
+            <p>small projects to explore new packages and concepts</p>
+          </Link>
 
-          <a
+          <Link
             href="/about-me"
             className={styles.card}
           >
@@ -64,7 +74,7 @@ export default function Home() {
             <p>
               am i human? yes! learn more about that here
             </p>
-          </a>
+          </Link>
         </div>
       </main>
 
