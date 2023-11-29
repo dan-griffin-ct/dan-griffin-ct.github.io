@@ -100,7 +100,7 @@ export default function Home() {
         body {
           padding: 0;
           margin: 0;
-          overflow: hidden;
+          overflow-x: hidden;
           font-family:
             -apple-system,
             BlinkMacSystemFont,
