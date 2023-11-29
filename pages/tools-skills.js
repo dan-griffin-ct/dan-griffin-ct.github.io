@@ -21,7 +21,7 @@ export default function ToolsSkills() {
             <h1 className={styles.pageTitle}>Tools &amp; Skills</h1>
         </div>
 
-        <div className={styles.gridTools}>
+        <div className={styles.grid}>
           <span className={styles.cardSkills}>
             <h5>Backend</h5>
             <p>
