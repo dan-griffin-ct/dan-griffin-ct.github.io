@@ -18,7 +18,9 @@ export default function ToolsSkills() {
           </svg>
         </div>
         <div>
-            <h1 className={styles.pageTitle}>Tools &amp; Skills</h1>
+          <Link href="/" className={styles.backLinkTop}>
+            <span className={styles.pageTitle}>Tools &amp; Skills</span>
+          </Link>
         </div>
 
         <div className={styles.grid}>

@@ -1,20 +1,9 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.scss';
 import Link from 'next/link';
+import styles from '../styles/Home.module.scss';
 
-
-export default function Home() {
-  const downloadResume = () => {
-    const pdfUrl = "DGResume.pdf";
-    const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.download = "DanGriffinResume.pdf"; 
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-
-  return (
+export default function FunStuff() {
+return (
     <div className={styles.container}>
       <Head>
         <title>&#127875; Dan Griffin</title>
@@ -28,55 +17,27 @@ export default function Home() {
               <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
           </svg>
         </div>
+
         <div>
-          <h1 className={styles.title}>
-            <Link target="_blank" href="https://github.com/dan-griffin-ct">Dan Griffin</Link>
-          </h1>
- 
-          <p className={styles.description}>
-            <code>Full Stack Engineer</code>
-          </p>
-          <div className={styles.logoDiv}>
-            <a target="_blank" href="https://github.com/dan-griffin-ct"><img src="/github.svg" alt="GitHub" className={styles.logo} /></a>
-            <a target="_blank" href="https://linkedin.com/in/danielggriffin"><img src="/linkedin-in.svg" alt="LinkedIn" className={styles.logo} /></a>
-            <a target="_blank" onClick={downloadResume}><img src="/file-solid.svg" alt="Resume" className={styles.logo} /></a>
-            <a target="_blank" href="mailto:dangoldgriff@gmail.com"><img src="/envelope-solid.svg" alt="Email" className={styles.logo} /></a>
-            <Link href="/fun-stuff"><img src="/hat-wizard-solid.svg" alt="GitHub" className={styles.logo} /></Link>
+          <Link href="/" className={styles.backLinkTop}>
+            <span className={styles.pageTitle}>&larr;</span>
+         </Link>
+        </div>
+        <div className={styles.boxContainer}>
+          <div className={styles.grid}>
+            <div className={styles.cube}>
+              <div className={styles.box}></div>
+              <div className={styles.box}></div>
+              <div className={styles.box}></div>
+              <div className={styles.box}></div>
+              <div className={styles.box}></div>
+              <div className={styles.box}></div>
+            </div>
           </div>
         </div>
-
-        <div className={styles.grid}>
-          <Link href="#" className={styles.cardIntro}>
-            <h5>10 years of experience</h5>
-            <p>backend, frontend, devops, project coordination and mentorship</p>
-          </Link>
-
-          <Link 
-            href="/tools-skills"
-            className={styles.card}
-          >
-            <h5>Tools / Skills / Clients</h5>
-            <p>languages, libraries, stacks, and clients I have worked with along the way</p>
-          </Link>
-
-          <Link
-            href="/recent-projects"
-            className={styles.card}
-          >
-            <h5>Recent Projects</h5>
-            <p>small projects to explore new packages and concepts</p>
-          </Link>
-
-          <Link
-            href="/about-me"
-            className={styles.card}
-          >
-            <h5>About Me</h5>
-            <p>
-              am i human? yes! learn more about that here
-            </p>
-          </Link>
-        </div>
+        <Link href="/" className={styles.backLink}>
+          
+        </Link>
       </main>
 
       <style jsx>{`

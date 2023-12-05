@@ -20,7 +20,9 @@ export default function AboutMe() {
         </div>
 
         <div>
-            <h1 className={styles.pageTitle}>About Me</h1>
+         <Link href="/" className={styles.backLinkTop}>
+            <span className={styles.pageTitle}>About Me</span>
+          </Link>
         </div>
         <div className={styles.grid}>
           <span
