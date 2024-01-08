@@ -238,6 +238,7 @@ $border-off-white: #eaeaea;
 /* card intro */
 
 .cardIntro {
+  min-height: 180px;
   margin: 1rem;
   flex-basis: 45%;
   padding: 1.5rem;
@@ -456,3 +457,42 @@ $border-off-white: #eaeaea;
   }
 }
 // end 3d box
+
+
+
+// tic tac toe
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+// end ttt
