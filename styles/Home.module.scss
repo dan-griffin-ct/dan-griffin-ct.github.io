@@ -42,17 +42,17 @@ $border-off-white: #eaeaea;
 }
 
 /* title text */
-.title a {
+.title p {
   text-decoration: none;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
+.title p:hover,
+.title p:focus,
+.title p:active {
   text-decoration: none;
 }
 
-.title a {
+.title p {
   margin: 0 0 1rem;
   line-height: 1.15;
   font-size: 3.6rem;
@@ -76,8 +76,8 @@ $border-off-white: #eaeaea;
 
 
 @media (prefers-reduced-motion: no-preference) {
-  .title a {
-    animation: move-bg 8s linear infinite;
+  .title p {
+    animation: move-bg 9s linear infinite;
   }
   @keyframes move-bg {
     to {

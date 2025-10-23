@@ -27,14 +27,14 @@ export default function ToolsSkills() {
           <span className={styles.cardSkills}>
             <h5>Backend</h5>
             <p>
-              Python, Django, DRF, Ruby on Rails, Flask, Behave, RSpec, Pandas, PyTest
+              Nest.js, Python, Django, DRF, Ruby on Rails, Flask, Behave, RSpec, Pandas, PyTest
             </p>
           </span>
 
           <span className={styles.cardSkills}>
             <h5>Frontend</h5>
             <p>
-              HTML, Vanilla JS, React, Vue, Ember, Coffeescript, JQuery, CSS3, Sass, Tailwind
+              Angular, HTML, Vanilla JS, React, Vue, Ember, Coffeescript, JQuery, CSS3, Sass, Tailwind
             </p>
           </span>
 
@@ -53,9 +53,16 @@ export default function ToolsSkills() {
           </span>
 
           <span className={styles.cardSkills}>
+            <h5>AI</h5>
+            <p>
+              Claude Weather Plugin (MCP) – Open-source plugin enabling Claude AI to access live weather data via RESTful API integration.
+            </p>
+          </span>
+
+          <span className={styles.cardSkills}>
             <h5>Clients</h5>
             <p>
-              Amazon, American Lung Association, Aon, American Red Cross, FA Davis, Moderna, Moët Hennessy, Nielsen, Sanofi, The DBQ Project
+              AC Delca, Amazon, American Lung Association, Aon, American Red Cross, FA Davis, Moderna, Moët Hennessy, Nielsen, Sanofi, The DBQ Project
             </p>
           </span>
         </div>

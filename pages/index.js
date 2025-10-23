@@ -30,7 +30,7 @@ export default function Home() {
         </div>
         <div>
           <h1 className={styles.title}>
-            <Link target="_blank" href="https://github.com/dan-griffin-ct">Dan Griffin</Link>
+            <p>Dan Griffin</p>
           </h1>
  
           <p className={styles.description}>
@@ -47,8 +47,8 @@ export default function Home() {
 
         <div className={styles.grid}>
           <Link href="#" className={styles.cardIntro}>
-            <h5>10 years of experience</h5>
-            <p>backend, frontend, devops, project coordination and mentorship</p>
+            <h5>12 years of experience</h5>
+            <p>backend, frontend, devops, project coordination, architecting, and mentorship</p>
           </Link>
 
           <Link 
@@ -56,7 +56,7 @@ export default function Home() {
             className={styles.card}
           >
             <h5>Tools / Skills / Clients</h5>
-            <p>languages, libraries, stacks, and clients I have worked with along the way</p>
+            <p>click here for languages, libraries, stacks, and clients I have worked with</p>
           </Link>
 
           <Link
