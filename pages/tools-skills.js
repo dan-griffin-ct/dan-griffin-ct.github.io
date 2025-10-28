@@ -19,7 +19,7 @@ export default function ToolsSkills() {
         </div>
         <div>
           <Link href="/" className={styles.backLinkTop}>
-            <span className={styles.pageTitle}>Tools &amp; Skills</span>
+            <span className={styles.pageTitle}>Tools &bull; Skills &bull; More</span>
           </Link>
         </div>
 
@@ -55,14 +55,14 @@ export default function ToolsSkills() {
           <span className={styles.cardSkills}>
             <h5>AI</h5>
             <p>
-              Claude Weather Plugin (MCP) – Open-source plugin enabling Claude AI to access live weather data via RESTful API integration.
+              Udemy-trained in AI, currently working through MCP training via LinkedIn Learning; Developed MCP weather plugin for Claude AI to provide real-time weather data and safety warnings.
             </p>
           </span>
 
           <span className={styles.cardSkills}>
-            <h5>Clients</h5>
+            <h5>Clients & Projects</h5>
             <p>
-              AC Delca, Amazon, American Lung Association, Aon, American Red Cross, FA Davis, Moderna, Moët Hennessy, Nielsen, Sanofi, The DBQ Project
+              AC Delco, Amazon, American Lung Association, Aon, American Red Cross, FA Davis, Moderna, Moët Hennessy, Nielsen, O'Reilly, Sanofi, The DBQ Project, Westin Hotels
             </p>
           </span>
         </div>

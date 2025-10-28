@@ -27,10 +27,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/about-me": [
+    "/fun-stuff": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/about-me.js"
+      "static/chunks/pages/fun-stuff.js"
     ]
   },
   "ampFirstPages": []

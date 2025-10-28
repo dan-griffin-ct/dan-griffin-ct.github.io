@@ -24,7 +24,7 @@ return (
             <span className={styles.pageTitle}>&larr;</span>
          </Link>
         </div>
-        <small>Just for fun :D</small>
+        <marquee>📎 Clippy carousel, because why not? 📎</marquee>
         <div className={styles.boxContainer}>
           <div className={styles.grid}>
             <div className={styles.cube}>

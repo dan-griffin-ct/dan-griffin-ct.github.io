@@ -24,6 +24,16 @@ return (
          </Link>
         </div>
         <div className={styles.grid}>
+
+          <a
+            target="_blank"
+            href="https://github.com/dan-griffin-ct/pyparse"
+            className={styles.cardProject}
+          >
+            <h5>Claude AI Weather Plugin (MCP)</h5>
+            <p>Open-source plugin enabling Claude AI to access live weather data via RESTful API integration.</p>
+          </a>
+
           <a
             target="_blank"
             href="https://github.com/dan-griffin-ct/pyparse"
